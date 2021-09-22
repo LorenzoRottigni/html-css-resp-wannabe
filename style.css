@@ -71,26 +71,10 @@ img {
 .clear {
   clear: both;
 }
- @media screen and (max-width: 420px) {
-    #lezioni .row, #why .row{
-      background-color: #F2F2CD ;
-    }
-    #lezioni .row div.left{
-      float: none;
-      width: 100%;
-    }
-    #lezioni .row div.right{
-      float: none;
-      width: 100%;
-   }
-   #steps .row>.left, #steps .row>.central, #steps .row>.right {
-      float: none;
-      width: 100%;
-   }
- }
  @media screen and (max-width: 420px){
     #lezioni .row, #why .row{
         background-color: #F2F2CD ;
+        width: 100%;
     }
     #lezioni .row div.left{
     float: none;
@@ -108,5 +92,6 @@ img {
 @media only screen and (max-width: 768px) and (min-width: 421px){
   #lezioni .row, #why .row{
     background-color: violet;
+    width: 100%;
   }
 }
